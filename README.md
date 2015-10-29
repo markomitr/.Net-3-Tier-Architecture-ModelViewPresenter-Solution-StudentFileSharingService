@@ -8,12 +8,14 @@ The problem:
 Students have a problem - Unorganized and too much of a hassle to get books, materials and files for learning. They were all over the place, paper files, e-books, files on different servers etc.
 
 Goals:
+- All the data/files at one place
+- Available anytime
+- Notification for new data/files
+- Sharing the knowledge
 
-All the data/files at one place
-Available anytime
-Notification for new data/files
-Sharing the knowledge
-The solution: Student social network for file sharing.
+The solution:
+
+Student social network for file sharing.
 
 Motto: From the students, for the students - get the right information, at the right time.
 
