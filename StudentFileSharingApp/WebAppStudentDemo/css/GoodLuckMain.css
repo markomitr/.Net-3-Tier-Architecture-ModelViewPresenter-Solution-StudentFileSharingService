@@ -1,0 +1,299 @@
+﻿/* ПРОЕКТ: СТУДЕНТСКИ РЕСУРСИ   
+   
+   ОПИС: 
+   CSS датотека за почетната страна на веб апликацијата.
+*/
+
+/* Layer sodrzina - во него се ставени големата бела коцка и сликата со моливите 
+   во горниот дел */
+body
+{
+    margin-top: 0px;
+    margin-bottom: 6%;
+}
+
+input
+{
+    width:85%;
+}
+#sodrzina
+{    
+
+    width:1024px;
+    margin-left:auto;    
+    margin-right:auto;    
+}
+
+/* END Layer sodrzina */
+
+
+/* Layer gorenDel */
+#sodrzina #gorenDel
+{
+    width:100%;   
+       
+}
+
+#sodrzina #gorenDel #zaglavje
+{
+    width:100%;
+    min-height:109px;
+    background-image: url("../Sliki/GoodLuckStudentSliki/zaglavjeLevo.png");
+    background-repeat: repeat-x;
+    background-position: left bottom;     
+}
+
+
+#sodrzina #gorenDel #glavenDelSodrzina
+{
+    width:100%;
+}
+/* END Layer gorenDel */
+#sodrzina #gorenDel #glavenDelSodrzina img
+{
+    width:100%;
+}
+
+span#nasaCelZaglavjeLevo, span#najaviSeZaglavjeLevo
+{
+    float:left;
+    min-width:59px;
+    min-height:27px;
+    background-image: url("../Sliki/GoodLuckStudentSliki/kockaLevDelGore.jpg");
+    background-repeat: no-repeat;
+    background-position: top left; 
+    background-color: #747375;
+    
+}
+
+span#pridruziSeZaglavjeLevo
+{
+    float:left;
+    min-width:59px;
+    min-height:27px;
+    background-image: url("../Sliki/GoodLuckStudentSliki/kockaGoreSina.jpg");
+    background-repeat: no-repeat;
+    background-position: top left; 
+    background-color: #747375;
+    
+}
+
+span#nasaCelZaglavjeSredina
+{
+    width: 49%;
+    min-height:25px;
+    float:left;   
+    padding-top: 3px;
+    text-align: center;   
+}
+
+span#najaviSeZaglavjeSredina
+{
+    width: 62%;
+    min-height:25px;
+    float:left;   
+    padding-top: 3px;
+    text-align: center;   
+}
+
+span#pridruziSeZaglavjeSredina
+{
+    width: 73%;
+    min-height:25px;
+    float:left;    
+    padding-top: 3px;
+    text-align: center;   
+}
+
+span#nasaCelZaglavjeDesno, span#najaviSeZaglavjeDesno
+{
+    float:right;
+    min-width: 59px;
+    min-height:27px;
+    background-image: url("../Sliki/GoodLuckStudentSliki/kockaDesenDelGore.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #747375;   
+}
+
+span#pridruziSeZaglavjeDesno
+{
+    float:right;
+    min-width: 59px;
+    min-height:27px;
+    background-image: url("../Sliki/GoodLuckStudentSliki/kockaLevDelGoreSina.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #747375;   
+}
+
+div#nasaCelSodrzina
+{
+    clear:both;
+    min-width: 210px;
+    min-height: 146px;        
+    padding: 5%;
+}
+
+div#najaviSeSodrzina
+{
+    clear:both;
+    min-width: 210px;
+    min-height: 146px;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #a1d63a;
+    padding: 5%;
+}
+
+div#pridruziSeSodrzina
+{
+    clear:both;
+    min-width: 210px;
+    min-height: 146px;
+    
+    background-repeat: no-repeat;
+    background-position: right top; 
+    background-color: #309bd4;   
+    padding: 5%;
+}
+
+span#pridruziSeSodrzinaLevo
+{
+    width:50%;
+    float:left;
+}
+
+span#pridruziSeSodrzinaDesno
+{
+    width:50%;
+    float:left;
+}
+
+/* Layer footer - во овој layer се ставени коцките.*/
+#sodrzina #footer
+{    
+    width:100%;   
+    margin-left:auto;
+    margin-right:auto;       
+    margin-bottom:0.5%;
+    font-weight:bold;
+}
+
+#sodrzina #footer h1
+{
+    margin:0px;   
+}
+
+/* сите коцки имаат ист background (левиот горен дел е слика и дополнително бојата 
+    се става на сина */
+#sodrzina #footer #nasaCel, #sodrzina #footer #najaviSe
+{      
+    color:#ffffff; 
+        height:248px;  
+    
+}
+
+
+
+#sodrzina #footer #pridruziSe
+{    
+    border-bottom: 3px solid #717072;
+    height:248px;  
+}
+
+#sodrzina #footer #nasaCel h1, #sodrzina #footer #najaviSe h1, #sodrzina #footer #pridruziSe h1
+{
+    margin-bottom: 8%;
+}
+
+
+#sodrzina #footer #nasaCel
+{    
+    float:left; 
+    width:23.75%;     
+    min-width: 150px;  
+    min-height:100px;
+    color: #ffffff;   
+    background-image: url("../Sliki/GoodLuckStudentSliki/wisdom.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #a0d63a;    
+    border-bottom: 1px solid #739b25;
+    text-align: left;
+    vertical-align: middle;
+   
+}
+
+#sodrzina #footer #najaviSe
+{
+    float:left;
+    width: 32%;    
+    min-width: 150px;    
+    min-height:100px;
+    float:left;
+    background: #a0d63a;    
+    border-bottom: 1px solid #739b25;
+    
+        
+}
+
+#sodrzina #footer #pridruziSe
+{
+    float:left;  
+    width:44%;  
+    min-width: 210px;       
+    float:left;    
+    border: 1px solid #2074a0;
+    background-color: #309bd4;   
+}
+/* END layer footer */
+
+
+.btnPrati
+        {          
+            float:right;    
+            width:70%;          
+            min-height: 30px;
+            margin-right: 6%;            
+            border: 2px solid #1877a9;
+            background-image: url("../Sliki/PredmetStudentSliki/btnPratiBg.jpg");
+            background-position: 0 0;
+            background-repeat:repeat-x;   
+            background-color: #154fa1;
+            color: #ffffff;
+            font-weight: bold;  
+            vertical-align:baseline;   
+        }
+        
+        
+        .btnNajaviSe
+        {          
+            float:right;       
+            width: 35%;       
+            min-height: 30px;
+             margin-top: 3%; 
+            margin-right: 6%;            
+            border: 2px solid #1877a9;
+            background-image: url("../Sliki/PredmetStudentSliki/btnPratiBg.jpg");
+            background-position: 0 0;
+            background-repeat:repeat-x;   
+            background-color: #154fa1;
+            color: #ffffff;
+            font-weight: bold;  
+            vertical-align:baseline;   
+        }
+        .btnPrati:hover, .btnNajaviSe:hover
+        {
+            background-image: url("../Sliki/PredmetStudentSliki/btnPratiBgHover.jpg");
+            background-position: 0 0;
+            background-repeat:repeat-x;
+            background-color: #5b83bd;                
+        }
+        .lblSummary
+        {
+             display: block;
+             font-size: 0.6em;
+             text-align: justify;
+        }

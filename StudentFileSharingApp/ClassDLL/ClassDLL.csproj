@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1BDDBCD-C32F-4D43-A92F-0C744FA4EA3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassDLL</RootNamespace>
+    <AssemblyName>ClassDLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GreskiEX\GlavenException.cs" />
+    <Compile Include="GreskiEX\KomandaKorisiniciEX.cs" />
+    <Compile Include="GreskiEX\KonekcijaCloseEX.cs" />
+    <Compile Include="GreskiEX\KonekcijaEX.cs" />
+    <Compile Include="GreskiEX\KonekcijaOpenEX.cs" />
+    <Compile Include="GreskiEX\KonekcijaStringEX.cs" />
+    <Compile Include="GreskiEX\NemaKolonaEX.cs" />
+    <Compile Include="Interface\IDelMaterijali.cs" />
+    <Compile Include="Interface\IDeloviPredmetNasoka.cs" />
+    <Compile Include="Interface\IMaterijal.cs" />
+    <Compile Include="Interface\IDel.cs" />
+    <Compile Include="Interface\IInstitucija.cs" />
+    <Compile Include="Interface\IMaterijaliGrupirani.cs" />
+    <Compile Include="Interface\INasoka.cs" />
+    <Compile Include="Interface\IOblast.cs" />
+    <Compile Include="Interface\IPoraka.cs" />
+    <Compile Include="Interface\IPorakaPredmet.cs" />
+    <Compile Include="Interface\IPredmet.cs" />
+    <Compile Include="Interface\IPredmetNasoka.cs" />
+    <Compile Include="Interface\IPretplatenPredmet.cs" />
+    <Compile Include="Interface\IRegEx.cs" />
+    <Compile Include="Interface\IUstanova.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegularExpression\FactoryRegEx.cs" />
+    <Compile Include="RegularExpression\ProveriKorisnik.cs" />
+    <Compile Include="RegularExpression\ProveriMaterijal.cs" />
+    <Compile Include="RegularExpression\ProveriPoraka.cs" />
+    <Compile Include="RegularExpression\RegExNas.cs" />
+    <Compile Include="SysPart\Del.cs" />
+    <Compile Include="SysPart\DelMaterijali.cs" />
+    <Compile Include="SysPart\DeloviPredmetNasoka.cs" />
+    <Compile Include="SysPart\Enumerator.cs" />
+    <Compile Include="SysPart\Institucija.cs" />
+    <Compile Include="SysPart\Korisnik.cs" />
+    <Compile Include="SysPart\Materijal.cs" />
+    <Compile Include="SysPart\MaterijaliGrupirani.cs" />
+    <Compile Include="SysPart\Nasoka.cs" />
+    <Compile Include="SysPart\Oblast.cs" />
+    <Compile Include="SysPart\Poraka.cs" />
+    <Compile Include="SysPart\PorakaPredmet.cs" />
+    <Compile Include="SysPart\Predmet.cs" />
+    <Compile Include="SysPart\PredmetNasoka.cs" />
+    <Compile Include="SysPart\PretplatenPredmet.cs" />
+    <Compile Include="SysPart\RezultatKomanda.cs" />
+    <Compile Include="SysPart\Ustanova.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

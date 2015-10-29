@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EABA8FF0-A1B7-4090-A12A-F3C1ADDA8EFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presenter</RootNamespace>
+    <AssemblyName>Presenter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\Presenters\IDelPresenter.cs" />
+    <Compile Include="Interface\Presenters\IInstitucijaPresenter.cs" />
+    <Compile Include="Interface\Presenters\IKorisnikPresenter.cs" />
+    <Compile Include="Interface\Presenters\IMaterijalPresenter.cs" />
+    <Compile Include="Interface\Presenters\INasokaPresenter.cs" />
+    <Compile Include="Interface\Presenters\IOblastPresenter.cs" />
+    <Compile Include="Interface\Presenters\IPorakaPresenter.cs" />
+    <Compile Include="Interface\Presenters\IPredmetPresenter.cs" />
+    <Compile Include="Interface\Presenters\IPretplataPredmetPresenter.cs" />
+    <Compile Include="Interface\Presenters\IUstanovaPresenter.cs" />
+    <Compile Include="Interface\Views\CompositeViews\IIUONIzborView.cs" />
+    <Compile Include="Interface\Views\CompositeViews\IPredmetNasokaAddView.cs" />
+    <Compile Include="Interface\Views\CompositeViews\IPredmetiNasokaPoNasokaPregled1SoIzborView.cs" />
+    <Compile Include="Interface\Views\CompositeViews\IPredmetiNasokaPoNasokaPregled1View.cs" />
+    <Compile Include="Interface\Views\CompositeViews\IPredmetNasokaPregled1View.cs" />
+    <Compile Include="Interface\Views\DeloviViews\IDeloviAddView.cs" />
+    <Compile Include="Interface\Views\DeloviViews\IDeloviEditView.cs" />
+    <Compile Include="Interface\Views\DeloviViews\IDeloviPregled1View.cs" />
+    <Compile Include="Interface\Views\DeloviViews\IDeloviPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\DeloviViews\IDeloviPregled8View.cs" />
+    <Compile Include="Interface\Views\IKorisnikLoginCreateListView .cs" />
+    <Compile Include="Interface\Views\IKorisnikLoginStarView.cs" />
+    <Compile Include="Interface\Views\IMsgStatus.cs" />
+    <Compile Include="Interface\Presenters\IPresenter.cs" />
+    <Compile Include="Interface\Views\InstitucijaViews\IInstitucijaAddView.cs" />
+    <Compile Include="Interface\Views\InstitucijaViews\IInstitucijaEditView.cs" />
+    <Compile Include="Interface\Views\InstitucijaViews\IInstitucijaPregled1View.cs" />
+    <Compile Include="Interface\Views\InstitucijaViews\IInstitucijaPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\InstitucijaViews\IInstitucijaPregled8View.cs" />
+    <Compile Include="Interface\Views\IView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikAddBrzView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikAddFormView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikAddView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikDeleteView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikInputFormView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikLoginView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikPartView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikPregled1View.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikPregled8View.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikUpdateFormView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisnikUpdateView.cs" />
+    <Compile Include="Interface\Views\KorisnikViews\IKorisninPregled8View.cs" />
+    <Compile Include="Interface\Views\MaterijaliPredmetViews\IMaterijaliPredmetAddRejtingView.cs" />
+    <Compile Include="Interface\Views\MaterijaliPredmetViews\IMaterijaliPredmetAddView.cs" />
+    <Compile Include="Interface\Views\MaterijaliPredmetViews\IMaterijaliPredmetDeleteView.cs" />
+    <Compile Include="Interface\Views\MaterijaliPredmetViews\IMaterijaliPredmetPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\MaterijaliPredmetViews\IMaterijaliPredmetPregled8View.cs" />
+    <Compile Include="Interface\Views\MaterijalViews\IMaterijalAddView.cs" />
+    <Compile Include="Interface\Views\MaterijalViews\IMaterijaliPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\MaterijaliPredmetViews\IMaterijaliZgolemiDownloadView.cs" />
+    <Compile Include="Interface\Views\MaterijalViews\IMaterijalPregled1View.cs" />
+    <Compile Include="Interface\Views\NasokaPredmetDelViews\INPDAddView.cs" />
+    <Compile Include="Interface\Views\NasokaPredmetDelViews\INPDPregled1SoIzborView.cs.cs" />
+    <Compile Include="Interface\Views\NasokaViews\INasokaAddView.cs" />
+    <Compile Include="Interface\Views\NasokaViews\INasokaEditView.cs" />
+    <Compile Include="Interface\Views\NasokaViews\INasokaPregled1View.cs" />
+    <Compile Include="Interface\Views\NasokaViews\INasokaPregled8View.cs" />
+    <Compile Include="Interface\Views\NasokaViews\INasokaPregledSoFilterView.cs" />
+    <Compile Include="Interface\Views\NasokaViews\INasokaPregledSoIzborView.cs" />
+    <Compile Include="Interface\Views\OblastViews\IOblastAddView.cs" />
+    <Compile Include="Interface\Views\OblastViews\IOblastEditView.cs" />
+    <Compile Include="Interface\Views\OblastViews\IOblastPregled1View.cs" />
+    <Compile Include="Interface\Views\OblastViews\IOblastPregled8View.cs" />
+    <Compile Include="Interface\Views\OblastViews\IOblastPregledSoFilterView.cs" />
+    <Compile Include="Interface\Views\OblastViews\IOblastPregledSoIzborView.cs" />
+    <Compile Include="Interface\Views\PorakaViews\IPorakaPredmetAddView.cs" />
+    <Compile Include="Interface\Views\PorakaViews\IPorakaPredmetPregled8View.cs" />
+    <Compile Include="Interface\Views\PredmetViews\IPredmetAddView.cs" />
+    <Compile Include="Interface\Views\PredmetViews\IPredmetEditView.cs" />
+    <Compile Include="Interface\Views\PredmetViews\IPredmetPregled1View.cs" />
+    <Compile Include="Interface\Views\PredmetViews\IPredmetPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\PredmetViews\IPredmetPregled8View.cs" />
+    <Compile Include="Interface\Views\PretplataPredmetViews\INePretplataPredmetPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\PretplataPredmetViews\IPretplataPredmetAddView.cs" />
+    <Compile Include="Interface\Views\PretplataPredmetViews\IPretplataPredmetDeleteView.cs" />
+    <Compile Include="Interface\Views\PretplataPredmetViews\IPretplataPredmetPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\UstanovaViews\IUstanovaPregled8SoIzborView.cs" />
+    <Compile Include="Interface\Views\UstanovaViews\IUstanovaPregled8View.cs" />
+    <Compile Include="Interface\Views\UstanovaViews\IUstanovaEditView.cs" />
+    <Compile Include="Interface\Views\UstanovaViews\IUstanovaAddView.cs" />
+    <Compile Include="Interface\Views\UstanovaViews\IUstanovaPregled1View.cs" />
+    <Compile Include="Interface\Views\UstanovaViews\IUstanovaPregledSoFilterView.cs" />
+    <Compile Include="Presenter\DelPresenter.cs" />
+    <Compile Include="Presenter\MaterijalPresenter.cs" />
+    <Compile Include="Presenter\NasokaPresenter.cs" />
+    <Compile Include="Presenter\OblastPresenter.cs" />
+    <Compile Include="Presenter\PorakaPresenter.cs" />
+    <Compile Include="Presenter\PredmetPresenter.cs" />
+    <Compile Include="Presenter\PretplataPredmetPresenter.cs" />
+    <Compile Include="Presenter\UstanovaPresenter.cs" />
+    <Compile Include="Presenter\InstitucjaPresenter.cs" />
+    <Compile Include="Presenter\KorisniciPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassDLL\ClassDLL.csproj">
+      <Project>{C1BDDBCD-C32F-4D43-A92F-0C744FA4EA3D}</Project>
+      <Name>ClassDLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{2E737143-0AFD-4F1A-ACC4-0A202F52F858}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FAFAA3B4-798B-4962-B6F1-AB4468F64A0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinFormAppTest</RootNamespace>
+    <AssemblyName>WinFormAppTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DeloviForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeloviForm.Designer.cs">
+      <DependentUpon>DeloviForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelZaPredmetPoNasokaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelZaPredmetPoNasokaForm.Designer.cs">
+      <DependentUpon>DelZaPredmetPoNasokaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FtpSetup.cs" />
+    <Compile Include="FtpUpload.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FtpUpload.Designer.cs">
+      <DependentUpon>FtpUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IUONIzborFoma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IUONIzborFoma.Designer.cs">
+      <DependentUpon>IUONIzborFoma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KorisnikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KorisnikForm.Designer.cs">
+      <DependentUpon>KorisnikForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstitucijaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstitucijaForm.Designer.cs">
+      <DependentUpon>InstitucijaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Materijali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materijali.Designer.cs">
+      <DependentUpon>Materijali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterijaliPredmeti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterijaliPredmeti.Designer.cs">
+      <DependentUpon>MaterijaliPredmeti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meni.Designer.cs">
+      <DependentUpon>Meni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NasokaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NasokaForm.Designer.cs">
+      <DependentUpon>NasokaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OblastForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OblastForm.Designer.cs">
+      <DependentUpon>OblastForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredmetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredmetForm.Designer.cs">
+      <DependentUpon>PredmetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateKorForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateKorForma.Designer.cs">
+      <DependentUpon>UpdateKorForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UstanovaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UstanovaForm.Designer.cs">
+      <DependentUpon>UstanovaForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DeloviForm.resx">
+      <DependentUpon>DeloviForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelZaPredmetPoNasokaForm.resx">
+      <DependentUpon>DelZaPredmetPoNasokaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FtpUpload.resx">
+      <DependentUpon>FtpUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IUONIzborFoma.resx">
+      <DependentUpon>IUONIzborFoma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KorisnikForm.resx">
+      <DependentUpon>KorisnikForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstitucijaForm.resx">
+      <DependentUpon>InstitucijaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materijali.resx">
+      <DependentUpon>Materijali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterijaliPredmeti.resx">
+      <DependentUpon>MaterijaliPredmeti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meni.resx">
+      <DependentUpon>Meni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NasokaForm.resx">
+      <DependentUpon>NasokaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OblastForm.resx">
+      <DependentUpon>OblastForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredmetForm.resx">
+      <DependentUpon>PredmetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UpdateKorForma.resx">
+      <DependentUpon>UpdateKorForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UstanovaForm.resx">
+      <DependentUpon>UstanovaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassDLL\ClassDLL.csproj">
+      <Project>{C1BDDBCD-C32F-4D43-A92F-0C744FA4EA3D}</Project>
+      <Name>ClassDLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presenter\Presenter.csproj">
+      <Project>{EABA8FF0-A1B7-4090-A12A-F3C1ADDA8EFC}</Project>
+      <Name>Presenter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

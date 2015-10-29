@@ -1,0 +1,5 @@
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\ClassDLL\bin\Debug\ClassDLL.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\ClassDLL\bin\Debug\ClassDLL.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\ClassDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\ClassDLL\obj\Debug\ClassDLL.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\ClassDLL\obj\Debug\ClassDLL.pdb

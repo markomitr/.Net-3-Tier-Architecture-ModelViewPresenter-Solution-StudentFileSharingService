@@ -1,0 +1,13 @@
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\WebAppStudentDemo.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\WebAppStudentDemo.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\ClassDLL.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\EnMkConvertor.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\Presenter.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\DAL.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\ClassDLL.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\Presenter.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\DAL.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\obj\Debug\WebAppStudentDemo.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\obj\Debug\WebAppStudentDemo.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\bin\WebAppStudentDemo.dll.config
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\WebAppStudentDemo\obj\Debug\WebAppStudentDemo.csprojResolveAssemblyReference.cache

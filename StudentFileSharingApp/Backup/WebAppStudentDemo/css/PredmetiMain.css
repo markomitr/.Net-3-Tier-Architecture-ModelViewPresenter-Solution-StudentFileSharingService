@@ -1,0 +1,94 @@
+﻿body 
+{
+    
+}
+
+#sodrzina
+{    
+    width:1024px;
+    min-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#ffffff;
+    color:#000000;   
+}
+
+#zaglavje
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 900px;
+    height: 30px;
+    background-color: #000000;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+#KorisnikPregled
+{
+    width: 100%;
+    padding: 5px;
+}
+
+#KorisnikPregled a
+{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#KorisnikPregled a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #cecece;
+}
+
+div#ImeIPrezime
+{
+    width: 30%;
+    min-width: 400px;
+    height: 30px;
+    float: left;
+    margin-left: 2%;
+    background-image: url("../Sliki/PredmetStudentSliki/penkalo.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 4%;
+}
+
+div#IDiLogOut
+{
+    float: right;
+    margin-right: 4%;
+}
+
+span#KorisnikUserID
+{
+    background-image: url("../Sliki/PredmetStudentSliki/korisnik.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 24px;        
+}
+
+span#LogOut
+{
+    height: 30px;
+    background-image: url("../Sliki/PredmetStudentSliki/logout.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 24px;
+}
+
+span#tekstNePretplateni
+{
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+div#PredmetIzbor
+{
+    color:#ffffff;
+}

@@ -1,0 +1,232 @@
+﻿/* ПРОЕКТ: СТУДЕНТСКИ РЕСУРСИ   
+   
+   ОПИС: 
+   CSS датотека за мастер страната на корисничкиот дел.
+*/
+
+body
+{
+    font-family: "Lucida Grande" , "DejaVu Sans" , "Bitstream Vera Sans" ,Verdana,Arial,sans-serif;
+    font-size: 12px;
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+/* Layer zaglavje */
+
+#zaglavje
+{
+    width: 100%;
+    height: 141px;
+    background-image: url('../sliki/masterStrana/bg.jpg');
+}
+
+/* --END-- Layer zaglavje */
+
+/* Layer sodrzina - го вклучува логот и десното знаме во кое пишува: корисници */
+
+#zaglavje #sodrzina
+{
+    position: relative;
+}
+
+#zaglavje #sodrzina #logo
+{
+    float: left;
+}
+
+#zaglavje #sodrzina #zname
+{
+    float: right;
+}
+
+/* --END-- Layer sodrzina */
+
+
+/* Layer meni */
+
+#zaglavje #meni
+{
+    vertical-align: bottom;
+    width: 1024px;
+    position: absolute;
+    top: 83px;
+    left: 8px;
+}
+
+/* --END-- Layer meni */
+
+/* Layer meniGlavna - левото главно мени  */
+
+#zaglavje #meni ul#meniGlavna
+{
+    margin-top: 21px;
+    list-style-type: none;
+    width: 600px;
+}
+
+#zaglavje #meni ul#meniGlavna a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding-top: 1.6%;
+    margin-left: 1%;
+    text-align: center;
+    background-color: #0d7dc1;
+    width: 129px;
+    height: 28px;
+    float: left;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+
+#zaglavje #meni ul#meniGlavna a:hover
+{
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+#zaglavje #meni ul#meniGlavna a:link, #zaglavje #meni #meniGlavna a:visted
+{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#zaglavje #meni ul#meniGlavna a:active
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* опаѓачко мени */
+
+#zaglavje #meni ul#meniGlavna div
+{
+    left:317px;
+    top:60px;
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    vertical-align: middle;
+}
+
+#zaglavje #meni ul#meniGlavna #m2
+{
+    left:183px;       
+}
+
+#zaglavje #meni ul#meniGlavna div a
+{
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 120px;    
+    text-align: left;
+    text-decoration: none;    
+    color: #ffffff;
+    font: 12px verdana;
+    font-weight: bold;
+    height: 40px;
+    padding: 3%;
+    text-align: center;
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+}
+
+#zaglavje #meni ul#meniGlavna div a:hover
+{    
+    color: #666666;
+    height: 40px;
+    vertical-align: middle;
+}
+
+/* --END-- опаѓачко мени */
+/* --END-- Layer meniGlavna */
+
+/* Layer meniDesno - десно мени (одлогирање)  */
+
+#zaglavje #meni #meniDesno
+{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    float: right;
+    width: 400px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#zaglavje #meni #meniDesno ul
+{
+    list-style-type: none;
+}
+
+#zaglavje #meni #meniDesno li
+{
+    margin: 0px;
+    float: left;
+}
+
+#zaglavje #meni #meniDesno a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-left: 10%;
+    padding-left: 10%;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 16px;
+    float: left;
+    font-weight: bold;
+    border-left: 1px solid #dddddd;
+}
+
+#zaglavje #meni ul#meniDesno li.odlogiranje
+{
+    border-left: 1px solid #dddddd;
+}
+
+/* --END-- Layer meniDesno */
+
+#glavnaSodrzina
+{
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Layer footer */
+#footer
+{
+    background-color: #f6f6f2;
+    display: block;
+    vertical-align: bottom;
+    font-size: 11px;
+    border-top: 1px solid #dddddd;
+}
+
+#footer #footerSodrzina
+{
+    padding: 3% 0% 5% 5%;
+    color: #222222;
+}
+
+/* --END-- Layer footer */

@@ -1,0 +1,26 @@
+﻿body 
+{
+    color: #666666;
+    font-size: 1.1em;
+    font: 0.75em 'Lucida Grande',sans-serif;
+}
+ #TextArea1
+ {
+    height: 236px;
+    width: 333px;
+    font: 0.75em 'Lucida Grande',sans-serif;
+    text-align:left;
+ }
+ .Kopce
+ {
+    cursor: pointer;
+    color: #666666;
+    font:  11px/14px  'Lucida Grande',sans-serif;
+    text-align:right;
+   
+ }
+ .cell
+ {
+    vertical-align:middle;
+    height:50px;
+ }

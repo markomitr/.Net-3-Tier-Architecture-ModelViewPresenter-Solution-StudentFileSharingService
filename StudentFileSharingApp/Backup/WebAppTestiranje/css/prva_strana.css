@@ -1,0 +1,274 @@
+﻿/* ПРОЕКТ: СТУДЕНТСКИ РЕСУРСИ   
+   
+   ОПИС: 
+   CSS датотека за првата страна - страната за логирање
+*/
+
+body 
+{
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif; 
+    font-size: 12px; 
+    width:100%;
+    color: #000000;
+    background-color: #ecede5;            
+    margin:0; 
+    text-align: left;
+}
+
+input
+{   
+    position: relative;
+    width: 90%;
+    height:25px;    
+    background:#fff;        
+    padding: 0 0.5em 0 0.5em; 
+    margin-top:0.4em;  
+    margin-bottom:1em;    
+}
+
+h2
+{           
+  text-align: left;
+  font-size: 20px;
+  margin:0px; 
+  line-height: 1.3em;  
+  font-style: normal;
+  font-weight:600;
+  letter-spacing: -1px;
+  line-height: 1.1em;
+}
+
+input.btn
+{   
+    position: relative;    
+    height:30px;    
+        
+    float:right;
+    color:#ffffff;
+    font-weight:bold;  
+}
+
+input.btn:hover
+{   
+    position: relative;
+    width: 100px;
+    height:30px;
+    padding:5px;     
+    float:right;
+    color:#ffffff;
+    font-weight:bold;    
+       
+}
+
+hr
+{   
+    border: 0;             
+    height: 1px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+/* Layer kontejner */
+
+#kontejner
+{    
+    width:100%;   
+    height:100%;
+}
+
+/* --END-- Layer kontejner */
+
+/* Layer najaviSe */
+
+#kontejner #najaviSe
+{       
+    width: 60%;       
+    background-color:#ffffff;         
+    border:1px solid #cccccc;     
+    color:#000000;      
+    margin-left:auto;
+    margin-right:auto;           
+    text-align:left;        
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;  
+    padding:1% 3% 0% 3%;    
+           
+}
+
+#kontejner #najaviSe .sodrzina
+{   
+            
+    margin-top: 1%;  
+    margin-left:auto;
+    margin-right:auto;          
+}
+
+/* leva labela i tekstbox */
+#kontejner #najaviSe .sodrzina .levaKelija
+{   
+    float:left;
+    width:50%;    
+    display:block; 
+}
+
+/* desna labela, tekstbox i kopce */
+#kontejner #najaviSe .sodrzina .desnaKelija
+{   
+    float:right;
+    width:50%;    
+    display:block; 
+}
+
+#kontejner #najaviSe hr
+{  
+    
+    background-color: #bc2315;   
+    
+}
+
+#kontejner #najaviSe input
+{             
+    border:2px solid #ca5242;        
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;    
+}
+
+/* style za kopceto */
+#kontejner #najaviSe input.btn
+{  
+    width: 100px;
+    background:#ca5242;         
+    border:2px solid #ca5242;    
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;    
+}
+
+#kontejner #najaviSe input.btn:hover
+{         
+    background:#de9b92;       
+    border:2px solid #ca5242;         
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;    
+}
+
+#kontejner #najaviSe h2
+{
+     color: #bc2315; 
+}
+
+/* pozicija na kopceto vo odnos na textbox-ot */
+#kontejner #najaviSe .btnPozicija
+{
+    margin-right:5%;
+}
+/* --END-- Layer najaviSe */
+
+
+/* Layer kreirajKorisnik */
+
+#kontejnerKreirajSmetka
+{
+    width:100%;         
+}
+
+#kontejnerKreirajSmetka #kreirajKorisnik
+{    
+    width: 60%;         
+    margin-top: 1%;  
+    margin-left:auto;
+    margin-right:auto;  
+    padding: 3%;       
+    background-image:url('../sliki/plus_korisnik.jpg');
+    background-position:top right;
+    background-repeat:no-repeat;               
+    text-align:left;    
+    background-color:#ffffff;      
+    border:1px solid #cccccc;    
+    color:#000000;       
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;         
+}
+
+/* levi labeli i tekstbox-ovi */
+#kontejnerKreirajSmetka #kreirajKorisnik .sodrzina .levaKelija
+{   
+    float:left;
+    width:50%;    
+    display:block; 
+}
+
+/* desni labeli, tekstbox-ovi i kopce */
+#kontejnerKreirajSmetka #kreirajKorisnik .sodrzina .desnaKelija
+{   
+    float:right;
+    width:50%;    
+    display:block; 
+}
+
+
+#kontejnerKreirajSmetka #kreirajKorisnik h2
+{       
+    color: #2574d3;    
+}
+
+#kontejnerKreirajSmetka #kreirajKorisnik hr
+{  
+    width:90%;
+    float:left;
+    background-color: #2574d3;  
+    
+}
+
+
+#kontejnerKreirajSmetka #kreirajKorisnik .sodrzina input
+{            
+    border:2px solid #2574d3;     
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+   
+}
+
+#kontejnerKreirajSmetka #kreirajKorisnik .sodrzina input.btn, #listaKorisnici input.btn
+{      
+    width: 180px;        
+    background:#2574d3;      
+    border:2px solid #2574d3;        
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;    
+}
+
+#kontejnerKreirajSmetka #kreirajKorisnik .sodrzina input.btn:hover, #listaKorisnici input.btn:hover
+{   
+    background:#62a2ee;       
+    border:2px solid #2574d3;         
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;    
+}
+
+#kontejnerKreirajSmetka #kreirajKorisnik .btnPozicija
+{
+    margin-right:5%;
+}
+
+/* --END-- Layer kreirajKorisnik */
+
+
+#listaKorisnici
+{       
+    
+    width: 60%;     
+    height: 100%;    
+    margin-top: 1%;  
+    margin-left:auto;
+    margin-right:auto;  
+    padding: 3%;    
+    text-align:left;    
+    background-color:#ffffff;      
+    border:1px solid #cccccc;    
+    color:#000000;       
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;     
+}

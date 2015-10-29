@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FED8A57-9547-4A18-9606-D4A9F865DFEF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebAppStudentDemo</RootNamespace>
+    <AssemblyName>WebAppStudentDemo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnMkConvertor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Kontroli\EnMkConvertor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\Global.css" />
+    <Content Include="css\GoodLuckMain.css" />
+    <Content Include="css\KorisnikMain.css" />
+    <Content Include="css\LoginMain.css" />
+    <Content Include="css\NovPrepisuvacMain.css" />
+    <Content Include="css\PredmetiMain.css" />
+    <Content Include="css\PredmetMain.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="GoodLuckStudent.aspx" />
+    <Content Include="Kontroli\EnMkConvertor.dll" />
+    <Content Include="Kontroli\FileDownload.ascx" />
+    <Content Include="KorisnikStudent.aspx" />
+    <Content Include="NovPrepisuvacStudent.aspx" />
+    <Content Include="PredmetStudent.aspx" />
+    <Content Include="LoginStudent.aspx" />
+    <Content Include="PredmetiStudent.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\Nasi\Globalna.js" />
+    <Content Include="Sliki\GoodLuckStudentSliki\kockaDesenDelGore.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\kockaGoreSina.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\kockaLevDelGore.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\kockaLevDelGoreSina.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\nalepnica.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\nalepnica2.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\PrvaStranav2.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\wisdom.png" />
+    <Content Include="Sliki\KorisnikStudentSliki\barcode.jpg" />
+    <Content Include="Sliki\KorisnikStudentSliki\button.jpg" />
+    <Content Include="Sliki\LoginStudentSliki\Index.jpg" />
+    <Content Include="Sliki\LoginStudentSliki\najaviSeBg2v1.jpg" />
+    <Content Include="Sliki\PredmetStudentSliki\dislikeIkona.png" />
+    <Content Include="Sliki\PredmetStudentSliki\downloadIkona.png" />
+    <Content Include="Sliki\PredmetStudentSliki\downloadLentaBg.png" />
+    <Content Include="Sliki\PredmetStudentSliki\komentiraj.jpg" />
+    <Content Include="Sliki\PredmetStudentSliki\korisnikKomentarV1.png" />
+    <Content Include="Sliki\PredmetStudentSliki\likeIkona.png" />
+    <Content Include="Sliki\PredmetStudentSliki\megafon.png" />
+    <Content Include="Sliki\PredmetStudentSliki\predmetBgKos.jpg" />
+    <Content Include="Sliki\profil.png" />
+    <Content Include="Sliki\copyrightImg.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\bg.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\bg1.png" />
+    <Content Include="Sliki\GoodLuckStudentSliki\emoticon_grin.png" />
+    <Content Include="Sliki\GoodLuckStudentSliki\molivPenkalaGoreDesno.png" />
+    <Content Include="Sliki\GoodLuckStudentSliki\zaglavjeKocki.jpg" />
+    <Content Include="Sliki\GoodLuckStudentSliki\zaglavjeLevo.png" />
+    <Content Include="Sliki\institucija.jpg" />
+    <Content Include="Sliki\KorisnikStudentSliki\kockaPredmetBgSlika.png" />
+    <Content Include="Sliki\KorisnikStudentSliki\kockaPredmetGorenLevDel.jpg" />
+    <Content Include="Sliki\KorisnikStudentSliki\kockaPredmetGorenLevDel_Bg.jpg" />
+    <Content Include="Sliki\KorisnikStudentSliki\kockaProfilBgSlika.png" />
+    <Content Include="Sliki\KorisnikStudentSliki\kockaProfilGorenLevDel.jpg" />
+    <Content Include="Sliki\KorisnikStudentSliki\kockaProfilGorenLevDel_Bg.jpg" />
+    <Content Include="Sliki\KorisnikStudentSliki\pretplatiSe.jpg" />
+    <Content Include="Sliki\LoginStudentSliki\najaviSeBg1.jpg" />
+    <Content Include="Sliki\LoginStudentSliki\najaviSeBg2.jpg" />
+    <Content Include="Sliki\PredmetiStudentSliki\institucija.jpg" />
+    <Content Include="Sliki\PredmetiStudentSliki\institucija.png" />
+    <Content Include="Sliki\PredmetiStudentSliki\institucijaBg.png" />
+    <Content Include="Sliki\PredmetiStudentSliki\nasoka.png" />
+    <Content Include="Sliki\PredmetiStudentSliki\nasokaBg.png" />
+    <Content Include="Sliki\PredmetiStudentSliki\oblast.png" />
+    <Content Include="Sliki\PredmetiStudentSliki\oblastBg.png" />
+    <Content Include="Sliki\PredmetiStudentSliki\ustanova.png" />
+    <Content Include="Sliki\PredmetiStudentSliki\ustanovaBg.png" />
+    <Content Include="Sliki\PredmetStudentSliki\Arhiva.png" />
+    <Content Include="Sliki\PredmetStudentSliki\btnPratiBg.jpg" />
+    <Content Include="Sliki\PredmetStudentSliki\btnPratiBgHover.jpg" />
+    <Content Include="Sliki\PredmetStudentSliki\Excel.png" />
+    <Content Include="Sliki\PredmetStudentSliki\highlighKopceKategorii.png" />
+    <Content Include="Sliki\PredmetStudentSliki\Html.png" />
+    <Content Include="Sliki\PredmetStudentSliki\knigiPozadinaKategorii.png" />
+    <Content Include="Sliki\PredmetStudentSliki\korisnik.png" />
+    <Content Include="Sliki\PredmetStudentSliki\korisnikKomentar.png" />
+    <Content Include="Sliki\PredmetStudentSliki\logout.png" />
+    <Content Include="Sliki\PredmetStudentSliki\materjalPregledBg.jpg" />
+    <Content Include="Sliki\PredmetStudentSliki\materjalPregledSeparator.jpg" />
+    <Content Include="Sliki\PredmetStudentSliki\Nepoznat.png" />
+    <Content Include="Sliki\PredmetStudentSliki\Pdf.png" />
+    <Content Include="Sliki\PredmetStudentSliki\penkalo.png" />
+    <Content Include="Sliki\PredmetStudentSliki\porakaImg.jpg" />
+    <Content Include="Sliki\PredmetStudentSliki\PowerPoint.png" />
+    <Content Include="Sliki\PredmetStudentSliki\prevzemi.png" />
+    <Content Include="Sliki\PredmetStudentSliki\Slika.png" />
+    <Content Include="Sliki\PredmetStudentSliki\Text.png" />
+    <Content Include="Sliki\PredmetStudentSliki\Word.png" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Glavna.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoodLuckStudent.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodLuckStudent.aspx.designer.cs">
+      <DependentUpon>GoodLuckStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroli\FileDownload.ascx.cs">
+      <DependentUpon>FileDownload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KorisnikStudent.aspx.cs">
+      <DependentUpon>KorisnikStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KorisnikStudent.aspx.designer.cs">
+      <DependentUpon>KorisnikStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginStudent.aspx.cs">
+      <DependentUpon>LoginStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginStudent.aspx.designer.cs">
+      <DependentUpon>LoginStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NovPrepisuvacStudent.aspx.cs">
+      <DependentUpon>NovPrepisuvacStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NovPrepisuvacStudent.aspx.designer.cs">
+      <DependentUpon>NovPrepisuvacStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PredmetStudent.aspx.cs">
+      <DependentUpon>PredmetStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PredmetStudent.aspx.designer.cs">
+      <DependentUpon>PredmetStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PredmetiStudent.aspx.cs">
+      <DependentUpon>PredmetiStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PredmetiStudent.aspx.designer.cs">
+      <DependentUpon>PredmetiStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassDLL\ClassDLL.csproj">
+      <Project>{C1BDDBCD-C32F-4D43-A92F-0C744FA4EA3D}</Project>
+      <Name>ClassDLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presenter\Presenter.csproj">
+      <Project>{EABA8FF0-A1B7-4090-A12A-F3C1ADDA8EFC}</Project>
+      <Name>Presenter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1725</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

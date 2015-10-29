@@ -1,0 +1,7 @@
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\DAL\bin\Debug\DAL.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\DAL\bin\Debug\DAL.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\DAL\bin\Debug\ClassDLL.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\DAL\bin\Debug\ClassDLL.pdb
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\DAL\obj\Debug\DAL.dll
+D:\Marko\FAX\E-Bis\New folder\StudentAppe-Bis\StudentApp\DAL\obj\Debug\DAL.pdb

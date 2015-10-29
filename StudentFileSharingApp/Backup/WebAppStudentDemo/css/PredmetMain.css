@@ -1,0 +1,176 @@
+﻿body
+{
+}
+
+ul
+{
+    margin:0px;
+    list-style:none;
+}
+a img
+{
+    border:0px;
+}
+#deloviIzbor a
+{
+    font-size: 2em;
+    word-wrap: break-word;
+    color:#ffffff;
+    text-decoration: none;
+    
+    text-align:center;
+}
+
+li
+{    
+    display:block;
+    float:left;
+    width:25%;   
+    min-width: 225px;
+    min-height:100px;
+    background-image: url("Sliki/PredmetStudentSliki/knigiPozadinaKategorii.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;    
+}
+
+#sodrzina
+{    
+    width:1024px;
+    min-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#ffffff;
+    color:#000000; 
+    margin-bottom:55px; 
+}
+
+#zaglavje
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 900px;
+    height: 30px;
+    background-color: #000000;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+#KorisnikPregled
+{
+    width: 100%;
+    padding: 5px;
+}
+
+#KorisnikPregled a
+{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#KorisnikPregled a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #cecece;
+}
+
+div#ImeIPrezime
+{
+    width: 30%;
+    min-width: 400px;
+    height: 30px;
+    float: left;
+    margin-left: 2%;
+    background-image: url("Sliki/PredmetStudentSliki/penkalo.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 4%;
+}
+
+div#IDiLogOut
+{
+    float: right;
+    margin-right: 4%;
+}
+
+span#KorisnikUserID
+{
+    background-image: url("Sliki/PredmetStudentSliki/korisnik.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 24px;        
+}
+
+span#LogOut
+{
+    height: 30px;
+    background-image: url("Sliki/PredmetStudentSliki/logout.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    padding-left: 24px;
+}
+
+div#deloviIzbor
+{
+    width: 100%;
+    margin: 0px;
+}
+
+li#kategorija1
+{
+    background-color:#00aee6;
+}
+
+a:hover li
+{    
+    background-image: url("Sliki/PredmetStudentSliki/highlighKopceKategorii.png");
+    background-position: left top;
+    background-repeat:repeat-x;
+    color:#000000;   
+}
+
+li
+{
+    background-color:#000000;
+}
+li#kategorija2
+{
+    background-color:#9cd303;
+}
+
+li#kategorija3
+{
+    background-color:#e89c02;
+}
+
+li#kategorija4
+{
+    background-color:#f8c900;
+}
+
+li#kategorija5
+{
+    background-color:#9d2bb8;
+}
+
+li#kategorija6
+{
+    background-color:#d11d5e;
+}
+
+li#kategorija7
+{
+    background-color:#7ecbb2;
+}
+li#kategorija8
+{
+    background-color:#bfcb7e;
+}
+#sodrzina fieldset
+{
+    width:98.5%;
+
+}

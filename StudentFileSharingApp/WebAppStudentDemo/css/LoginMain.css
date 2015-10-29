@@ -1,0 +1,96 @@
+﻿/* ПРОЕКТ: СТУДЕНТСКИ РЕСУРСИ   
+   
+   ОПИС: 
+   CSS датотека за почетната страна на веб апликацијата.
+*/
+
+body
+{
+    margin: 0px;
+}
+
+input
+{
+    width:80%;
+    border:none;    
+    min-height:5px;
+    padding:2%;
+    background-color: #f4fafd;
+    border-top: 2px solid #1d7baf; 
+    border-bottom: 2px solid #1d7baf; 
+    border-left: 2px solid #1d7baf; 
+    border-right: 2px solid #1d7baf;
+}
+
+fieldset  
+{       
+    padding: 1.5em 1.5em;
+       
+}
+
+#sodrzina
+{
+    width: 1024px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    color: #0d7dc1;
+    font-size: 1.em;
+}
+#sodrzina #najaviSePozadina1
+{
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    background-image: url("../Sliki/LoginStudentSliki/najaviSeBg1.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    float: left;
+}
+#sodrzina #najaviSePozadina1 img
+{
+    float: left;
+}
+#sodrzina #najaviSePozadina2
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("../Sliki/LoginStudentSliki/najaviSeBg2v1.jpg");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+div#najaviSePodatoci
+{
+    font-weight: bold;
+    width: 30%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10px;    
+}
+
+.btnPrati
+{
+    float: right;
+    width: 40%;
+    min-height: 30px;
+    margin: 0px;
+    border: 2px solid #1877a9;
+    background-image: url("../Sliki/PredmetStudentSliki/btnPratiBg.jpg");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-color: #154fa1;
+    color: #ffffff;
+    font-weight: bold;        
+}
+
+.btnPrati:hover
+{
+    background-image: url("../Sliki/PredmetStudentSliki/btnPratiBgHover.jpg");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-color: #5b83bd;
+}

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E737143-0AFD-4F1A-ACC4-0A202F52F858}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBAccess\BazaDB.cs" />
+    <Compile Include="DBAccess\DeloviDB.cs" />
+    <Compile Include="DBAccess\InstituciiDB.cs" />
+    <Compile Include="DBAccess\KorisnikDB.cs" />
+    <Compile Include="DBAccess\MaterijaliDB.cs" />
+    <Compile Include="DBAccess\NasokaDB.cs" />
+    <Compile Include="DBAccess\OblastDB.cs" />
+    <Compile Include="DBAccess\PorakaDB.cs" />
+    <Compile Include="DBAccess\PredmetDB.cs" />
+    <Compile Include="DBAccess\PredmetiNasokaDB.cs" />
+    <Compile Include="DBAccess\UstanovaDB.cs" />
+    <Compile Include="Interface\IDBPoraka.cs" />
+    <Compile Include="Interface\IDBPredmetiNasoka.cs" />
+    <Compile Include="Interface\IDBMaterijali.cs" />
+    <Compile Include="Interface\IDBDelovi.cs" />
+    <Compile Include="Interface\IDBBaza.cs" />
+    <Compile Include="Interface\IDBKorisnik.cs" />
+    <Compile Include="Interface\IDBKorisnikTip.cs" />
+    <Compile Include="Interface\IDBPredmet.cs" />
+    <Compile Include="Interface\IDBRoles.cs" />
+    <Compile Include="Interface\IDBInstitucii.cs" />
+    <Compile Include="Interface\IDBNasoki.cs" />
+    <Compile Include="Interface\IDBOblasti.cs" />
+    <Compile Include="Interface\IDBUstanovi.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassDLL\ClassDLL.csproj">
+      <Project>{C1BDDBCD-C32F-4D43-A92F-0C744FA4EA3D}</Project>
+      <Name>ClassDLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

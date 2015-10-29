@@ -1,0 +1,169 @@
+﻿/* се дефинраат глобалните стилови за страната 
+   - во овој дел се става, како втора позадина,
+     сликата со коцките (во кои пишува *.pdf, *.doc ... ) */
+body 
+{
+    font-family: "Lucida Grande" , "DejaVu Sans" , "Bitstream Vera Sans" ,Verdana,Arial,sans-serif;
+    font-size: 0.8em;
+    width: 100%;
+    background-image: url("../Sliki/GoodLuckStudentSliki/bg.jpg");
+    background-repeat:repeat-x;
+    background-color:#6dc2e7;
+    color: #ffffff;   
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    margin-top:30px;  
+    margin-bottom:25px;  
+   
+
+}
+
+fieldset  
+{       
+    padding: 0.5em 0.5em;
+    border:1px dotted #9bd1ec; 
+    margin:0px;    
+}
+
+legend 
+{
+  background-color: #ffffff;
+  padding: 0.5em;  
+  color:#c0c0c0;
+  font-size:90%;    
+  }
+  
+ hr
+ {
+    color: #fff; 
+    background-color: #fff; 
+    border: 1px dotted #9bd1ec; 
+    border-style: none none dotted;
+ }
+
+/* големина на насловите на коцките */
+h1
+{
+    color: #1d7baf;
+    margin: 3%;
+    font-size: 1.3em;
+}
+
+
+input
+{
+    width:75%;
+    border:none;    
+    min-height:5px;
+    padding:2%;
+    background-color: #f4fafd;
+    border-top: 2px solid #1d7baf; 
+    border-bottom: 2px solid #1d7baf; 
+    border-left: 2px solid #1d7baf; 
+    border-right: 2px solid #1d7baf;
+}
+
+/* кога се фокусирани textbox-овите се менува бојата
+   на горната и долната линија
+*/
+input:focus
+{
+    
+    border-top: 2px solid #c52823; 
+    border-bottom: 2px solid #c52823; 
+    border-left: 2px solid #c52823; 
+    border-right: 2px solid #c52823; 
+   
+}
+
+/* css класа за копчињата */
+.btn
+{
+    width:50%;
+    color: #ffffff;
+    font-weight:bold;    
+    margin: 3% 21% 3% 0%;
+    float:right;
+    background-color: #1d7baf;
+    border:2px solid #186996;
+}
+
+.btn:hover
+{    
+    border:2px solid #c52823;
+}
+
+.btnPrati
+        {
+            float:right;
+            width: 50%;            
+            min-height: 30px;
+            margin-top: 10px;            
+            border: 2px solid #1877a9;
+            background-image: url("../Sliki/PredmetStudentSliki/btnPratiBg.jpg");
+            background-position: 0 0;
+            background-repeat:repeat-x;   
+            background-color: #154fa1;
+            color: #ffffff;
+            font-weight: bold;       
+        }
+        
+        .btnPrati:hover
+        {
+            background-image: url("../Sliki/PredmetStudentSliki/btnPratiBgHover.jpg");
+            background-position: 0 0;
+            background-repeat:repeat-x;
+            background-color: #5b83bd;                
+        }
+
+/* Layer greska - Долна лента во која се прикажуваат грешките */
+#greska
+{
+    color: White;
+    display:none;
+    position:fixed;
+    bottom:10px;
+    left:45%;
+    height:20px;
+    z-index:10;
+    font-size:1.5em;
+}
+/* END layer greska */
+
+
+/* Layer copyright */
+#copyright
+{
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    left: 0px;
+    vertical-align: bottom;
+    margin: 0px;        
+    background-image: url("../Sliki/copyrightImg.jpg") no-repeat;
+    background-position: left top;
+    background-color: #000000;
+    font-size: 0.8em;
+    color:#b7a0c0;
+    border-top: 2px solid #0d7cc1;
+}
+
+#copyright #copyrightPodatoci
+{
+    font-weight:bold;
+    padding: 1%;
+}
+
+#copyright #copyrightPodatoci h1
+{
+    margin: 0px;
+    font-size: 1.1em;
+    color: #ffffff;
+    
+}
+
+
+/* END Layer copyright */
+
+

@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pocetna.master.cs" Inherits="WebAppTestiranje.korisnici.Pocetna" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Почетна страна</title>
+    <!-- css датотеки -->
+    <link rel="Stylesheet" href="css/korisnici_glavna.css" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css" media="screen">
+    <!--
+        @import url("../css/mainCss.css");
+    -->
+</style>
+    <!-- опаѓачко мени -->
+    <script type="text/javascript">
+<!--
+        var timeout = 500;
+        var closetimer = 0;
+        var ddmenuitem = 0;
+
+        // отвори го скриениот layer
+        function mopen(id) {            
+            mcancelclosetime();
+
+            // затвори го layer-от
+            if (ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+            // земи го новиот layer и прикажи го
+            ddmenuitem = document.getElementById(id);
+            ddmenuitem.style.visibility = 'visible';
+
+        }
+        // затвори го приакажаниот layer
+        function mclose() {
+            if (ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+        }
+
+        // go close timer
+        function mclosetime() {
+            closetimer = window.setTimeout(mclose, timeout);
+        }
+
+        // cancel close timer
+        function mcancelclosetime() {
+            if (closetimer) {
+                window.clearTimeout(closetimer);
+                closetimer = null;
+            }
+        }
+
+        // затовир го layer-oт во случај на кликнување надвор од копчето
+        document.onclick = mclose; 
+// -->
+
+    </script>
+</head>
+<body id="pocetna">
+    <form id="form1" runat="server">
+    <div id="zaglavje">
+        <div id="sodrzina">
+            <div id="logo">
+                <img src="sliki/masterStrana/logo.png" alt="Студентски ресурси" />
+            </div>
+            <div id="zname">
+                <img src="sliki/masterStrana/korisnici_flag.png" alt="корисници" />
+            </div>
+        </div>
+        <div id="meni">
+            <ul id="meniGlavna">
+                <li><a href="novosti.aspx">Новости</a></li>
+                <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Матерјали</a>
+                    <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="#">Пребарувај</a> 
+                        <a href="#">Преглед</a> 
+                        <a href="#">Додади</a>                        
+                    </div>
+                </li>
+                <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Профил</a>
+                    <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="smetka.aspx">Смтека</a> 
+                        <a href="#">Насока &amp; Предмети</a> 
+                        <a href="#">Пораки</a>                        
+                    </div>
+                </li>                
+            </ul>
+            <div id="meniDesno">
+                <ul>
+                    <li>Најавени сте како: <b>korisnik</b></li>
+                    <li class="odlogiranje"><a href="#">Одлогирај се!</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="glavnaSodrzina">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        <div id="footerSodrzina">
+            <p>
+                Новости</p>
+            <ul>
+                <li>BLA..</li>
+                <li>BLA..</li>
+                <li>BLA..</li>
+                <li>BLA..</li>
+            </ul>
+            &copy; 2011. All rights reserved
+        </div>
+    </div>
+    </form>
+</body>
+</html>
