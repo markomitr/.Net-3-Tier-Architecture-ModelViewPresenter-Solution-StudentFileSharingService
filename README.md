@@ -1,8 +1,6 @@
 # .Net-3-Tier-Architecture-ModelViewPresenter-Solution-StudentFileSharingService
-Students file sharing social network using 3 tier arhitecture and MVP pattern
-
-Students file sharing social network using 3 tier architecture and MVP pattern
-
+Students file sharing social network using 3 tier arhitecture and MVP pattern | By Marko Mitreski
+![Preview](https://github.com/markomitr/.Net-3-Tier-Architecture-ModelViewPresenter-Solution-StudentFileSharingService/blob/master/LandingPage.png)
 The problem: 
 
 Students have a problem - Unorganized and too much of a hassle to get books, materials and files for learning. They were all over the place, paper files, e-books, files on different servers etc.
@@ -65,6 +63,6 @@ ASP.Net | JavaScript | JQuery | HTML | CSS
 This is a team project.
 
 
-
+![Preview](https://github.com/markomitr/.Net-3-Tier-Architecture-ModelViewPresenter-Solution-StudentFileSharingService/blob/master/UserProfile.JPG)
 
 
